@@ -1,0 +1,57 @@
+/* Global styles for Practicals app */
+body {
+  background: #fafafa;
+  color: #222;
+}
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
+button { font-family: inherit; }
+.container { max-width: 960px; margin: 0 auto; }
+.product-grid { display: flex; gap: 12px; flex-wrap: wrap; }
+.product-grid { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.product-card { background: #fff; border: 1px solid #eee; padding: 12px; border-radius: 6px; width: 220px; text-align:center; margin: 8px; }
+.product-card img { width: 100%; height: 140px; object-fit: cover; border-radius: 4px; display:block; margin:0 auto 8px; }
+.cart-badge { background: #e53935; color: white; padding: 2px 8px; border-radius: 12px; font-size: 12px; }
+.code-block { background: #1e1e1e; color: #dcdcdc; padding: 12px; border-radius: 6px; overflow: auto; }
+
+/* Profile card */
+.profile-card { background: #fff; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); padding: 20px; display: flex; gap: 18px; align-items: center; }
+.profile-card img { width: 160px; height: 160px; object-fit: cover; border-radius: 8px; }
+.profile-card .info { flex: 1; }
+.badge { display: inline-block; padding: 4px 8px; background: #eef6ff; color: #0366d6; border-radius: 12px; font-weight: 600; }
+
+/* Profile boundary and progress */
+.profile-boundary { border: 1px solid #e6eef8; padding: 14px; border-radius: 10px; background: #fff; box-shadow: 0 6px 14px rgba(2,6,23,0.04); margin-bottom: 16px; }
+.profile-card { background: transparent; box-shadow: none; padding: 0; display: flex; gap: 18px; align-items: flex-start; }
+.profile-card img { width: 160px; height: 160px; object-fit: cover; border-radius: 8px; border: 1px solid #eee; }
+.profile-card .info { flex: 1; }
+.progress { height: 10px; background: #eef6ff; border-radius: 999px; overflow: hidden; margin-top: 6px; }
+.progress > i { display: block; height: 100%; background: linear-gradient(90deg,#36d1dc,#5b86e5); width: 0%; transition: width .36s ease; }
+
+/* Scorecard styles */
+.scorecard { background:#fff; border-radius:8px; padding:12px; box-shadow:0 4px 12px rgba(2,6,23,0.04); margin-bottom:12px; }
+.subject-row { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:8px 0; border-bottom:1px solid #f1f5f9; }
+.subject-row:last-child { border-bottom: none; }
+.grade-badge { padding:6px 10px; border-radius:8px; color:#fff; font-weight:700; font-size:13px; }
+.grade-a-plus { background:#197b30; }
+.grade-a { background:#2e8b57; }
+.grade-b { background:#f59e0b; }
+.grade-c { background:#6b7280; }
+
+/* Profile detailed layout */
+.profile-header { display:flex; gap:16px; align-items:center; }
+.profile-name { font-size:20px; font-weight:800; margin:0; }
+.profile-sub { color:#475569; margin-top:4px; font-size:13px; }
+.profile-meta { display:grid; grid-template-columns: repeat(3,1fr); gap:8px; margin-top:12px; color:#334155; }
+.meta-item { background:#f8fafc; padding:8px; border-radius:8px; font-size:13px; }
+.profile-actions { display:flex; gap:8px; margin-top:12px; }
+.btn { padding:8px 12px; border-radius:8px; border:1px solid #e2e8f0; background:#fff; cursor:pointer; font-weight:600; }
+.btn-primary { background: linear-gradient(90deg,#4f46e5,#06b6d4); color:#fff; border:none; }
+.btn-outline { background: transparent; }
+
+@media (max-width: 640px) {
+  .profile-header { flex-direction: column; align-items: stretch; }
+  .profile-meta { grid-template-columns: 1fr; }
+  .profile-card img { width: 120px; height: 120px; }
+}

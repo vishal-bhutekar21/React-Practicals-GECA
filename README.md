@@ -1,70 +1,143 @@
-# Getting Started with Create React App
+# React Practicals - GECA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive React learning project showcasing various practical implementations and mini-projects built with React Hooks, React Router, and modern web development practices.
 
-## Available Scripts
+**Repository:** [React-Practicals-GECA](https://github.com/vishal-bhutekar21/React-Practicals-GECA)
 
-In the project directory, you can run:
+## 📚 Practicals
 
-### `npm start`
+### Practical 1-11
+Foundation practicals covering React basics and intermediate concepts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Practical 12 - Conditional Rendering
+Learn how to conditionally render UI elements based on state and props. Demonstrates if/else patterns, ternary operators, and logical operators in JSX.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Practical 13 - State Hooks
+Master React's `useState` hook with practical examples including:
+- Counter component
+- Dynamic selection
+- Todo list management
 
-### `npm test`
+### Practical 14 - Build Your Hooks
+Learn to create custom React hooks:
+- `useCounter` - manages counter state with increment/decrement
+- `useInput` - manages form input state with change handlers
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Practical 15 - Car Racing Game 🏁
+An interactive car racing game featuring:
+- Player car movement (left/right lanes)
+- Obstacle avoidance mechanics
+- Coin collection system
+- Lives and scoring system
+- Level progression with increasing difficulty
+- High score persistence using localStorage
+- SVG-based graphics
+- Keyboard and touch controls
 
-### `npm run build`
+## 🛒 Mini Projects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Grocery Delivery App
+A full-featured e-commerce application demonstrating:
+- Product catalog with multiple categories
+- Shopping cart management
+- Coupon system (SAVE10, SAVE20)
+- Checkout flow with delivery details
+- Order history persistence
+- Order tracking
+- Responsive design with smooth UI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Node.js (v14+)
+- npm or yarn
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone the repository
+git clone https://github.com/vishal-bhutekar21/React-Practicals-GECA.git
+cd react-practicals
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install dependencies
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Available Scripts
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Development
+```bash
+npm start
+```
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Learn More
+#### Production Build
+```bash
+npm run build
+```
+Builds the app for production to the `build` folder with optimizations.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Testing
+```bash
+npm test
+```
+Launches the test runner in interactive watch mode.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🛠️ Tech Stack
 
-### Code Splitting
+- **React 18** - UI library with Hooks
+- **React Router v6** - Client-side routing
+- **CSS3** - Styling with gradients and animations
+- **SVG Components** - Graphics for the car game
+- **localStorage** - Persistent storage for game scores and cart data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📁 Project Structure
 
-### Analyzing the Bundle Size
+```
+src/
+├── components/          # Reusable components
+│   ├── ErrorBoundary.jsx
+│   ├── Header.jsx
+│   └── NotFound.jsx
+├── practicals/          # Practical implementations
+│   ├── Practical01-11.jsx
+│   ├── Practical12.jsx  # Conditional Rendering
+│   ├── Practical13.jsx  # State Hooks
+│   ├── Practical14.jsx  # Custom Hooks
+│   ├── Practical15.jsx  # Car Racing Game
+│   ├── GroceryDeliveryApp.jsx  # Mini Project
+│   └── PracticalsList.jsx
+├── routes/
+│   └── AppRoutes.jsx    # Route configuration
+├── styles/
+│   ├── global.css
+│   └── grocery.css
+└── App.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 💡 Key Features
 
-### Making a Progressive Web App
+✅ Component-based architecture  
+✅ Custom React Hooks  
+✅ Client-side routing  
+✅ State management with hooks  
+✅ Responsive design  
+✅ localStorage persistence  
+✅ Error boundaries  
+✅ Interactive games and applications  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👤 Author
 
-### Advanced Configuration
+**Vishal Bhutekar**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/vishal-bhutekar21/)
+- 🌐 [Portfolio](https://vishalbhutekar.netlify.app/)
+- 💻 [GitHub](https://github.com/vishal-bhutekar21)
 
-### Deployment
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is open source and available under the MIT License.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Built with ❤️ for learning React**

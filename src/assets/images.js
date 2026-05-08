@@ -1,0 +1,4 @@
+// Reusable sample images (data URIs / fallback URLs)
+export const sampleAvatar = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><rect width='100%25' height='100%25' fill='%23eef2ff'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='20' fill='%23333'>Avatar</text></svg>";
+export const sampleProduct = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='300'><rect width='100%25' height='100%25' fill='%23fff7e6'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='24' fill='%23333'>Product Image</text></svg>";
+export const sampleBanner = 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80&auto=format&fit=crop&ixlib=rb-4.0.3&s=6b2c15d6b9b6f6f6f6f6f6f6f6f6f6f6';
